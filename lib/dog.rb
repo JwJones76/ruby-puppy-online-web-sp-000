@@ -4,7 +4,6 @@ class Dog
   
   @@all = []
   @@names = []
-  @@new_names = []
   
   def initialize(name)
     @name = name
@@ -21,13 +20,7 @@ class Dog
   end
   
   def self.print_all
-    @@new_names
-    @@names.each do |name|
-      if name = "Pluto" || "Fido" || "Maddy"
-        name << @@new_names
-      end
-      puts @@new_names
-    end
+    puts @@names
   end
   
   def save
