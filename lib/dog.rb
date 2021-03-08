@@ -22,7 +22,7 @@ class Dog
   def self.print_all
     @@new_names
     @@names.each do |name|
-      if name = "Pluto" || ""
+      if name = "Pluto" || "Fido" ||
   end
   
   def save
