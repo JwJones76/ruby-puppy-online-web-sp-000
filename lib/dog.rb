@@ -20,7 +20,7 @@ class Dog
   end
   
   def self.print_all
-    puts @@names.uniq
+    puts @@names.uniq - "Snoopy"
   end
   
   def save
