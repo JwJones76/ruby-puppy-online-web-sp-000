@@ -20,7 +20,6 @@ class Dog
   end
   
   def self.print_all
-    @@names.delete[3]
     puts @@names.uniq
   end
   
