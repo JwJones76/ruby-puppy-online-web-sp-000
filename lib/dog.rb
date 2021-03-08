@@ -26,6 +26,7 @@ class Dog
         name << @@new_names
       end
       puts @@new_names
+    end
   end
   
   def save
