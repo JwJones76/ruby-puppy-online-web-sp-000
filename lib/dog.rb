@@ -20,7 +20,9 @@ class Dog
   end
   
   def self.print_all
-    puts @@names.uniq
+    @@new_names
+    @@names.each do |name|
+      if name = "Pluto" || ""
   end
   
   def save
